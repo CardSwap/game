@@ -1,11 +1,11 @@
 body {
-    font-family:monospace;
+    font-family: monospace;
     text-align: center;
-    margin-bottom:0;
+    margin-bottom: 0;
     background: #f5f5f5
 }
 p {
-    font-size:14px;
+    font-size: 14px;
 }
 #title {
     font-weight: bold;
@@ -16,6 +16,7 @@ p {
 footer {
     background: #dddddd;
     margin-top: 90px;
+    font-size: 1.25em;
 }
 h1 {
     margin-top: 0;
