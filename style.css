@@ -1,18 +1,25 @@
+/*Page Style*/
 body {
     font-family: "Comic Sans MS", monospace;
     text-align: center;
     margin-bottom: 0;
     background: #eeffff
 }
+
+/*Font Size*/
 p {
     font-size: 14px;
 }
+
+/*The Large Heading at the Top...*/
 #title {
     font-weight: bold;
     font-size: 3em;
     margin-top: 0;
     padding-top: 5px;
 }
+
+/*Source Code and HTML/CSS Reference*/
 footer {
     background: #ddddff;
     margin-top: 5px;
@@ -21,23 +28,28 @@ footer {
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Heading Styles*/
 h1 {
     margin-top: 0;
+    margin: 0.25em;
 }
-#setup-table {
-    margin-left: auto;
-    margin-right: auto;
-}
+
+/*Table Heading*/
 th {
     padding-left: 10px;
     padding-right: 10px;
     width: 50%;
 }
+
+/*Table Data*/
 td {
     padding-left: 10px;
     padding-right: 10px;
     width: 50%;
 }
+
+/*Setup Table*/
 table {
     border-collapse: collapse;
     width: 50%;
@@ -46,48 +58,58 @@ table {
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/*Table Border*/
 table, th, td {
     border: 2px solid #000000;
     font-size: 1.1em;
     border-radius: 8px;
 } 
-#summary {
-    margin: 2px;
-}
-h1 {
-    margin: 0.25em;
-}
+
+/*Introduction Area*/
 #heading {
     background: #ccffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Setup Section*/
 #setup {
     background: #bbddff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Materials Section*/
 #mats {
     background: #bbeeff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Gameplay Section*/
 #gameplay{
     background: #bbffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Scoring Section*/
 #scoring{
     background: #99ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
 }
+
+/*Tips Section*/
 #tips{
     background: #55ffff;
     margin-bottom: 1em;
