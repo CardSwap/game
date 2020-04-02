@@ -19,6 +19,7 @@ footer {
     margin-bottom: 5px;
     font-size: 1.25em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 h1 {
     margin-top: 0;
@@ -39,15 +40,17 @@ td {
 }
 table {
     border-collapse: collapse;
-    width: 35%;
+    width: 50%;
     margin-top: 1em;
     background: #bbeeff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 table, th, td {
     border: 2px solid #000000;
     font-size: 1.1em;
+    border-radius: 8px;
 } 
 #summary {
     margin: 2px;
@@ -59,29 +62,35 @@ h1 {
     background: #ccffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 #setup {
     background: #bbddff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 #mats {
     background: #bbeeff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 #gameplay{
     background: #bbffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 #scoring{
     background: #99ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
 #tips{
     background: #55ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
+    border-radius: 15px;
 }
