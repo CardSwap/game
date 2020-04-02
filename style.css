@@ -2,7 +2,7 @@ body {
     font-family: monospace;
     text-align: center;
     margin-bottom: 0;
-    background: #eeeeff
+    background: #eeffff
 }
 p {
     font-size: 14px;
@@ -15,8 +15,10 @@ p {
 }
 footer {
     background: #ddddff;
-    margin-top: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 1.25em;
+    border: 2px solid #000000;
 }
 h1 {
     margin-top: 0;
@@ -39,6 +41,9 @@ table {
     border-collapse: collapse;
     width: 35%;
     margin-top: 1em;
+    background: #bbeeff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
 }
 table, th, td {
     border: 2px solid #000000;
@@ -50,8 +55,28 @@ table, th, td {
 h1 {
     margin: 0.25em;
 }
-#mats, #setup, #gameplay, table, #scoring, #heading {
-    background: #ddddff;
+#heading {
+    background: #ccffff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+}
+#setup {
+    background: #bbddff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+}
+#mats {
+    background: #bbeeff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+}
+#gameplay{
+    background: #bbffff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+}
+#scoring{
+    background: #99ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
 }
