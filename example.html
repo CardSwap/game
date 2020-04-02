@@ -17,6 +17,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <a name="example-top">
         <div class="heading">
             <h1>
                 CardSwap Example
@@ -24,6 +25,247 @@
             <h3>
                 This is a text-based example for the CardSwap game which you can find <a href="index.html">here</a>.
             </h3>
+            <h3>
+                Go to:
+            </h3>
+            <p>
+                <a href=#setup-example>Setup</a><br>
+                <a href=#gameplay-example>Gameplay</a><br>
+                <a href=#scoring-example>Scoring</a>
+            </p>
         </div>
+        <div class="setup" id="setup-example">
+            <h1>
+                Game Setup
+            </h1>
+            <h2>
+                This example will cover a basic 3-player game.
+            </h2>
+            <p>
+                To setup the game, 12 cards will be passed out to each player.<br>
+                P1(Player 1) gets a hand of 2, 10, 2, 6, 4, 4, J, 5, K, 9, 10, and 5.<br>
+                P2(Player 2) gets a hand of Q, 7, 6, 3, 8, 10, 6, 6, K, K, J, and 7.<br>
+                P3(Player 3) gets a hand of 9, 9, J, 7, 9, 8, 8, A, Q, 4, 2, and 3.<br>
+                Suits have not been included as they are not important in the game.
+            </p>
+        </div>
+        <div class="gameplay" id="gameplay-example">
+            <h1>
+                Gameplay
+            </h1>
+            <p>
+                Side note: Because people usually don't like reading a lot of text, only the first 3 rounds have been shown. The rest are done after.
+            </p>
+            <h3>
+                Go to:
+            </h3>
+            <p>
+                <a href=#round-1>Round 1</a><br>
+                <a href=#round-2>Round 2</a><br>
+                <a href=#round-3>Round 3</a><br>
+                <a href=#scoring>Scoring</a>
+            </p>
+            <div id="round-1">
+                <h2>
+                    Round 1
+                </h2>
+                <h3>
+                    P1
+                </h3>
+                <p>
+                    P1 takes the K because it is a high card.<br>
+                    P1 passes the remaining hand: 2, 10, 2, 6, 4, 4, J, 5, 9, 10, and 5 to P2.
+                </p>
+                <h3>
+                    P2
+                </h3>
+                <p>
+                    P2 also takes the K for the same reason as P1.<br>
+                    P2 passes the remaining hand: Q, 7, 6, 3, 8, 10, 6, 6, K, J, and 7 to P3.
+                </p>
+                <h3>
+                    P3
+                </h3>
+                <p>
+                    P3 takes the Q for the same reason as P1 and P2.<br>
+                    P3 passes the remaining hand: 9, 9, J, 7, 9, 8, 8, A, 4, 2, and 3 to P1.
+                </p>
+            </div>
+            <div id="round-2">
+                <h2>
+                    Round 2
+                </h2>
+                <h3>
+                    P1
+                </h3>
+                <p>
+                    P1 takes the A because P1 is hoping there is a second A.<br>
+                    P1 passes the remaining hand: 9, 9, J, 7, 9, 8, 8, 4, 2, and 3 to P2.<br>
+                    P1 now has a K and A.
+                </p>
+                <h3>
+                    P2
+                </h3>
+                <p>
+                    P2 also takes the 2 for the same reason as P1.<br>
+                    P2 passes the remaining hand: 10, 2, 6, 4, 4, J, 5, 9, 10, and 5 to P3.<br>
+                    P2 now has a K and 2.
+                </p>
+                <h3>
+                    P3
+                </h3>
+                <p>
+                    P3 takes the Q for the same reason as in round 1, hoping that the 3rd Q comes back around.<br>
+                    P3 passes the remaining hand: Q, 7, 6, 3, 8, 10, 6, 6, K, J, and 7 to P1.<br>
+                    P3 now has a Q and Q.
+                </p>
+            </div>
+            <div id="round-3">
+                <h2>
+                    Round 3
+                </h2>
+                <h3>
+                    P1
+                </h3>
+                <p>
+                    P1 realizes there isn't a second A, and instead takes the Q.<br>
+                    P1 passes the remaining hand: 7, 6, 3, 8, 10, 6, 6, K, J, and 7 to P2.<br>
+                    P1 now has a Q, K, and A.
+                </p>
+                <h3>
+                    P2
+                </h3>
+                <p>
+                    P2 takes the 2 because it is the second of a low number.<br>
+                    P2 passes the remaining hand: 9, 9, J, 7, 9, 8, 8, 4, and 3 to P3.<br>
+                    P2 now has a K, 2, and 2.
+                </p>
+                <h3>
+                    P3
+                </h3>
+                <p>
+                    P3 realizes there isn't a thrid Q, and takes the J instead.<br>
+                    P3 passes the remaining hand: 10, 2, 6, 4, 4, 5, 9, 10, and 5 to P1.<br>
+                    P3 now has a J, Q, and Q.
+                </p>
+            </div>
+        </div>
+        <div class="scoring" id="scoring-example">
+            <h1>
+                Scoring
+            </h1>
+            <p>
+                At the end of the game, the players are left with these cards: (Sorted for your sanity)<br>
+                P1: A, 3, 4, 4, 6, 9, 9, 9, 10, J, Q, K<br>
+                P2: 2, 2, 2, 3, 4, 6, 7, 8, 8, 10, J, K<br>
+                P3: 5, 5, 6, 6, 7, 8, 9, 10, J, Q, Q, K<br>
+                The standard score sheet will be used for scoring these hands.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Card</th>
+                        <th>P1</th>
+                        <th>P2</th>
+                        <th>P3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>A-1</th>
+                        <td>1</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>-</td>
+                        <td>8</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>16</td>
+                        <td>4</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td>-</td>
+                        <td>7</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>-</td>
+                        <td>12</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td>36</td>
+                        <td>-</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>J-11</th>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <th>Q-12</th>
+                        <td>12</td>
+                        <td>-</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <th>K-13</th>
+                        <td>13</td>
+                        <td>13</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <th>TOTAL</th>
+                        <th>108</th>
+                        <th>74</th>
+                        <th>95</th>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>
+                If you've been following along with your calculator, you'll see that P1 is the winner of this example game.
+            </h3>
+        </div>
+        <a href=#example-top>Back to top</a><br>
+        <a href="index.html">Back to main page</a>
     </body>
+    <footer>
+        Made entirely with HTML and CSS :)<br>
+        Source code <a target="_blank" href="https://github.com/CardSwap/game">here</a>
+    </footer>
 </html>
