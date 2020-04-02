@@ -76,7 +76,7 @@ table, th, td {
 } 
 
 /*Introduction Area*/
-#heading {
+.heading {
     background: #ccffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
@@ -118,6 +118,14 @@ table, th, td {
 /*Tips Section*/
 #tips{
     background: #55ffff;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+/*Example Section*/
+#example{
+    background: #00ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
