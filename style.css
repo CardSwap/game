@@ -2,7 +2,7 @@ body {
     font-family: monospace;
     text-align: center;
     margin-bottom: 0;
-    background: #f5f5f5
+    background: #eeeeff
 }
 p {
     font-size: 14px;
@@ -14,7 +14,7 @@ p {
     padding-top: 5px;
 }
 footer {
-    background: #dddddd;
+    background: #ddddff;
     margin-top: 90px;
     font-size: 1.25em;
 }
@@ -51,7 +51,7 @@ h1 {
     margin: 0.25em;
 }
 #mats, #setup, #gameplay, table, #scoring, #heading {
-    background: #eeeeff;
+    background: #ddddff;
     margin-bottom: 1em;
     border: 2px solid #000000;
 }
