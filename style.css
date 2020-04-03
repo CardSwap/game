@@ -100,7 +100,7 @@ table, th, td {
 }
 
 /*Gameplay Section*/
-.gameplay{
+.gameplay {
     background: #bbffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
@@ -108,7 +108,7 @@ table, th, td {
 }
 
 /*Scoring Section*/
-.scoring{
+.scoring {
     background: #99ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
@@ -116,7 +116,7 @@ table, th, td {
 }
 
 /*Tips Section*/
-#tips{
+#tips {
     background: #55ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
@@ -124,9 +124,25 @@ table, th, td {
 }
 
 /*Example Section*/
-#example{
+#example {
     background: #00ffff;
     margin-bottom: 1em;
     border: 2px solid #000000;
     border-radius: 15px;
+}
+
+/*Buttons*/
+button {
+    background: #5555aa;
+    border: 3px outset #999999;
+    margin-bottom: 5px;
+}
+/*Button Hover*/
+button:hover {
+    background: #5555ff;
+}
+
+/*Button Click*/
+button:active {
+    border: 3px inset #999999;
 }
