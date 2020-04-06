@@ -133,9 +133,10 @@ table, th, td {
 
 /*Buttons*/
 button {
-    background: #5555aa;
-    border: 3px outset #999999;
+    background: #2222ff;
+    border: 2px solid #000000;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 /*Button Hover*/
 button:hover {
@@ -144,5 +145,5 @@ button:hover {
 
 /*Button Click*/
 button:active {
-    border: 3px inset #999999;
+    background: #9999ff;
 }
